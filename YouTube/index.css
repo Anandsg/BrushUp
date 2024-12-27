@@ -1,0 +1,6 @@
+.thumbnail {
+  width: 300px;
+  /* height: 300px;  we can't adjust the height as image will get out of shape */
+  /* object-fit: cover; cover image with specipic height and adjust the height*/
+  /* object-position: right; */
+}

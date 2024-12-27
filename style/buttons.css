@@ -1,0 +1,70 @@
+.sub-btn {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-right: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sub-btn:hover {
+  /* background-color: rgb(150, 33, 33); */
+  cursor: pointer;
+  opacity: 0.7; /* used to fade of the color on hover */
+}
+
+/* used to fade of the color when user clicks (u can also change the clr) */
+.sub-btn:active {
+  opacity: 0.5;
+}
+.join-btn {
+  border-color: rgb(16, 163, 255);
+  color: rgb(16, 163, 255);
+  background-color: white;
+  border-radius: 2px;
+  border-width: thin;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  /* Transition for smooth ux also text in the btn */
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join-btn:hover {
+  background-color: rgb(16, 163, 255);
+  color: white;
+  cursor: pointer;
+}
+.tweet-btn {
+  background-color: rgb(29, 155, 240);
+  border-radius: 17px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  text-shadow: 20px;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.tweet-btn:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.get-btn {
+  font-weight: bold;
+  color: white;
+  background-color: rgb(121, 82, 179);
+  border: none;
+  height: 33px;
+  width: 92px;
+  border-radius: 3px;
+  margin-left: 8px;
+}
