@@ -4,3 +4,12 @@
   /* object-fit: cover; cover image with specipic height and adjust the height*/
   /* object-position: right; */
 }
+.search-bar {
+  display: block;
+}
+.video-thumbnail {
+  display: inline-block;
+}
+.video-title{
+  width: 250px;
+}
