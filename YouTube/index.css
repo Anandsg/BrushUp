@@ -9,7 +9,9 @@
 }
 .video-thumbnail {
   display: inline-block;
+  vertical-align: top;
+  margin: 10px;
 }
-.video-title{
+.video-title {
   width: 250px;
 }
