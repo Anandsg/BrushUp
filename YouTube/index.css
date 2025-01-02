@@ -4,8 +4,15 @@
   /* object-fit: cover; cover image with specipic height and adjust the height*/
   /* object-position: right; */
 }
+p {
+  font-family: Roboto, Arial;
+  font-size: medium;
+}
 .search-bar {
   display: block;
+}
+.video-title {
+  margin-top: 0;
 }
 .video-preview {
   display: inline-block;
@@ -16,6 +23,7 @@
 .channel-picture {
   display: inline-block;
   width: 50px;
+  vertical-align: top;
 }
 
 .video-info {
@@ -23,6 +31,11 @@
   width: 200px;
 }
 
-.profile-picture{
-  width: 50px;
+.profile-picture {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
 }
