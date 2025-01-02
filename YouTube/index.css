@@ -7,11 +7,22 @@
 .search-bar {
   display: block;
 }
-.video-thumbnail {
+.video-preview {
   display: inline-block;
   vertical-align: top;
   margin: 10px;
 }
-.video-title {
-  width: 250px;
+
+.channel-picture {
+  display: inline-block;
+  width: 50px;
+}
+
+.video-info {
+  display: inline-block;
+  width: 200px;
+}
+
+.profile-picture{
+  width: 50px;
 }
