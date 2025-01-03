@@ -1,34 +1,31 @@
 .thumbnail {
-  width: 300px;
+  width: 100%;
   /* height: 300px;  we can't adjust the height as image will get out of shape */
   /* object-fit: cover; cover image with specipic height and adjust the height*/
   /* object-position: right; */
 }
 p {
-  font-family: Roboto, Arial;
+  font-family: Roboto, Arial; /* Backup font (font stack)*/
   font-size: medium;
+  margin: 0;
 }
 .search-bar {
   display: block;
 }
 .video-title {
   margin-top: 0;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 12px;
 }
-.video-preview {
+/* .video-preview {
   display: inline-block;
   vertical-align: top;
   margin: 10px;
-}
-
-.channel-picture {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
-}
-
-.video-info {
-  display: inline-block;
-  width: 200px;
+} */
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .profile-picture {
@@ -38,4 +35,20 @@ p {
 
 .thumbnail-row {
   margin-bottom: 12px;
+}
+.video-authour,
+.video-stats {
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+}
+
+.video-authour {
+  margin-bottom: 4px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
