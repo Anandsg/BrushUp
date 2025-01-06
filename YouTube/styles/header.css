@@ -2,19 +2,22 @@
   height: 70px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 .left-section {
   background-color: wheat;
-  width: 150px;
+  width: 200px;
+  align-items: center;
+  display: flex;
 }
 
 .hamburger-menu {
-  height: 20px;
+  height: 28px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .youtube-logo {
-  height: 20px;
+  height: 25px;
 }
 .middle-section {
   flex: 1;
@@ -22,8 +25,12 @@
   margin-left: 300px;
   margin-right: 300px;
   max-width: 350px;
+  align-items: center;
+  display: flex;
 }
 .right-section {
   width: 200px;
   background-color: lightpink;
+  align-items: center;
+  display: flex;
 }
