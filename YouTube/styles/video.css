@@ -4,11 +4,6 @@
   /* object-fit: cover; cover image with specipic height and adjust the height*/
   /* object-position: right; */
 }
-p {
-  font-family: Roboto, Arial; /* Backup font (font stack)*/
-  font-size: medium;
-  margin: 0;
-}
 .search-bar {
   display: block;
 }
@@ -19,10 +14,10 @@ p {
   margin-bottom: 12px;
 }
 /* .video-preview {
-  display: inline-block;
-  vertical-align: top;
-  margin: 10px;
-} */
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+  } */
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
