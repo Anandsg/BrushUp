@@ -12,6 +12,7 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(224, 222, 222);
+  z-index: 100; /* As thumbnail is relative it will appear on top of header */
 }
 .left-section {
   width: 200px;

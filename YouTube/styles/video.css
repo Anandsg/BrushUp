@@ -30,6 +30,7 @@
 
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
 }
 .video-authour,
 .video-stats {
@@ -47,4 +48,18 @@
   column-gap: 16px;
   row-gap: 40px;
   margin-bottom: 2000px;
+}
+
+/* absolute position */
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500; /* semibold */
+  padding: 4px;
+  border-radius: 2px;
 }
