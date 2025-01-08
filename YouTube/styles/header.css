@@ -3,6 +3,15 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 6px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  /* border bottom */
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(224, 222, 222);
 }
 .left-section {
   width: 200px;

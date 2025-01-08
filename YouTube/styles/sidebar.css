@@ -1,0 +1,8 @@
+.sidebar {
+  position: fixed; /* placed in the browser window */
+  background-color: white;
+  left: 0;
+  bottom: 0px;
+  top: 70px;
+  width: 70px;
+}

@@ -3,3 +3,8 @@ p {
   font-size: medium;
   margin: 0;
 }
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 90px;
+}
