@@ -81,6 +81,7 @@
   height: 24px;
   width: 24px;
   margin-top: 3px;
+  cursor: pointer;
 }
 .right-section {
   width: 180px;
@@ -125,4 +126,33 @@
   padding-top: 2px;
   padding-bottom: 2px;
   border-radius: 12px;
+}
+
+.search-btn .tooltip,
+.voice-search-btn .tooltip {
+  background-color: gray;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: absolute;
+  color: white;
+  font-size: 11px;
+  bottom: -33px;
+  right: 0px;
+  border-radius: 2px;
+  opacity: 0; /* when user don't hover on search btn */
+  transition: opacity 0.15s;
+  pointer-events: none; /* disabling hoverig on tooltip */
+  /* white-space: nowrap; to avoid tooltip appearing on top of voice icon */
+}
+
+.search-btn,
+.voice-search-btn {
+  position: relative;
+}
+/* selecting tooltip only when user hovers on search btn */
+.search-btn:hover .tooltip,
+.voice-search-btn:hover .tooltip {
+  opacity: 1;
 }
