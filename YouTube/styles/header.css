@@ -24,6 +24,7 @@
   height: 28px;
   margin-left: 32px;
   margin-right: 24px;
+  cursor: pointer;
 }
 
 .youtube-logo {
@@ -88,21 +89,33 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-right: 20px;
+  margin-right: 30px;
   flex-shrink: 0; /* not to shrink */
 }
 
 .upload-icon {
   width: 25px;
   height: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .youtube-apps-icon {
   width: 25px;
   height: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .notify-icon {
   width: 25px;
   height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 .current-user-icon {
   height: 35px;
@@ -129,7 +142,11 @@
 }
 
 .search-btn .tooltip,
-.voice-search-btn .tooltip {
+.voice-search-btn .tooltip,
+.upload-icon-container .tooltip,
+.youtube-apps-container .tooltip,
+.notify-container .tooltip {
+  font-family: Roboto, Arial;
   background-color: gray;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -147,12 +164,23 @@
   /* white-space: nowrap; to avoid tooltip appearing on top of voice icon */
 }
 
+.upload-icon-container .tooltip,
+.youtube-apps-container .tooltip,
+.notify-container .tooltip {
+  right: -10px;
+}
 .search-btn,
-.voice-search-btn {
+.voice-search-btn,
+.upload-icon-container,
+.youtube-apps-container,
+.notify-container {
   position: relative;
 }
 /* selecting tooltip only when user hovers on search btn */
 .search-btn:hover .tooltip,
-.voice-search-btn:hover .tooltip {
+.voice-search-btn:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.youtube-apps-container:hover .tooltip,
+.notify-container:hover .tooltip {
   opacity: 1;
 }

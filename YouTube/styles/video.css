@@ -26,11 +26,13 @@
 .profile-picture {
   width: 40px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .thumbnail-row {
   margin-bottom: 12px;
   position: relative;
+  cursor: pointer;
 }
 .video-authour,
 .video-stats {
@@ -47,6 +49,37 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+
+/* Responsive */
+
+/* From screen size 500px to 600px display only 1 video grid */
+@media (min-width: 500px) and (max-width: 600px) {
+  .video-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* From screen size 600 to 750 display only 2 video grid */
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* From screen size 751px to 999px display only 3 video grid */
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* From screen size > 999px display 4 video grid */
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 /* absolute position */
