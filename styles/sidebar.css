@@ -1,0 +1,32 @@
+.sidebar {
+  position: fixed; /* placed in the browser window */
+  background-color: white;
+  left: 0;
+  bottom: 0px;
+  top: 60px;
+  width: 90px;
+}
+
+.sidebar-link {
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+/*it will target all the images inside sidebar link div */
+.sidebar-link img {
+  height: 28px;
+}
+
+.sidebar-link div {
+  font-family: Roboto Arial;
+  font-size: 12px;
+  margin-top: 7px;
+}

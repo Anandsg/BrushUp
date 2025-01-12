@@ -1,0 +1,97 @@
+.thumbnail {
+  width: 100%;
+  /* height: 300px;  we can't adjust the height as image will get out of shape */
+  /* object-fit: cover; cover image with specipic height and adjust the height*/
+  /* object-position: right; */
+}
+.search-bar {
+  display: block;
+}
+.video-title {
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 9px;
+}
+/* .video-preview {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+  } */
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-picture {
+  width: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
+  position: relative;
+  cursor: pointer;
+}
+.video-authour,
+.video-stats {
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+}
+
+.video-authour {
+  margin-bottom: 4px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+/* Responsive */
+
+/* From screen size 500px to 600px display only 1 video grid */
+@media (min-width: 500px) and (max-width: 600px) {
+  .video-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* From screen size 600 to 750 display only 2 video grid */
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* From screen size 751px to 999px display only 3 video grid */
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* From screen size > 999px display 4 video grid */
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* absolute position */
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500; /* semibold */
+  padding: 4px;
+  border-radius: 2px;
+}
