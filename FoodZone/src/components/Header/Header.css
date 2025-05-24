@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 100px;
+}
+.right-bar {
+  display: flex;
+  gap: 50px;
+  margin-right: 10px;
+}
+
+.right-bar > ul {
+  display: flex;
+  align-items: center;
+}
+.right-bar > ul > li {
+  padding: 10px;
+  list-style-type: none;
+}
